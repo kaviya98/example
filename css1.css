@@ -58,6 +58,22 @@ img{
     background-color: green; 
     color: #555555;
 }
+
+.btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+}
+
+.btn:hover {
+  background-color: orange;
+  color: white;
+}
 .bg-4 {
     background-color: #ff7755; 
     color: #555555;
