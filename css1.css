@@ -55,8 +55,9 @@ img{
     font-size: 20px;  
 }
 .bg-3 {
-    background-color: green; 
-    color: #555555;
+    background-color: orange;
+    color: blue;
+    
 }
 
 .btn {
