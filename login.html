@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<link rel="stylesheet"  href="login.css">
+</head>
+<body>
+<div class="bg-img">
+  <form action=>
+    <div class="container">
+      <h1>Login</h1>
+
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw"required>
+      <br><br>
+     <input type="checkbox" onclick="toggle()">Show Password
+
+<script>
+function toggle() {
+    var x = document.getElementById("psw");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+</script>
+
+      <button type="submit" class="btn">Login</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
